@@ -411,38 +411,44 @@
 <h2>Penyelesaian dengan eliminasi gaus :<a class="headerlink" href="#penyelesaian-dengan-eliminasi-gaus" title="Link to this heading">#</a></h2>
 <p>Meskipun kita sudah tahu bahwa sistem ini tidak memiliki solusi, kita akan mencoba menyelesaikannya menggunakan eliminasi Gauss untuk memverifikasi.</p>
 <p>Langkah 1: Tulis Matriks Augmented<br />
-Pertama, kita tulis sistem persamaan dalam bentuk matriks augmented:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 4 \
-1 &amp; 1 &amp; 1 &amp; | 6 \
+Pertama, kita tulis sistem persamaan dalam bentuk matriks augmented:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 4 \\
+1 &amp; 1 &amp; 1 &amp; | 6 \\
 1 &amp; 1 &amp; 1 &amp; | 8
-\end{bmatrix}</p>
+\end{bmatrix}
+\)</span>$</p>
 <p>Langkah 2: Eliminasi Gauss<br />
 Kita akan melakukan operasi baris untuk mengubah matriks menjadi bentuk eselon baris.</p>
 <ol class="arabic simple">
-<li><p>Baris 2 - Baris 1:</p></li>
-</ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 4 \
-0 &amp; 0 &amp; 0 &amp; | 2 \
+<li><p>Baris 2 - Baris 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 4 \\
+0 &amp; 0 &amp; 0 &amp; | 2 \\
 1 &amp; 1 &amp; 1 &amp; | 8
-\end{bmatrix}</p>
-<ol class="arabic simple" start="2">
-<li><p>Baris 3 - Baris 1:</p></li>
+\end{bmatrix}
+\)</span>$</p></li>
+<li><p>Baris 3 - Baris 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 4 \\
+0 &amp; 0 &amp; 0 &amp; | 2 \\
+0 &amp; 0 &amp; 0 &amp; | 4
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 3: Analisis Matriks Hasil  
+Setelah eliminasi, matriks menjadi:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 4 \\
+0 &amp; 0 &amp; 0 &amp; | 2 \\
+0 &amp; 0 &amp; 0 &amp; | 4
+\end{bmatrix}
+\)</span>$
+Pada baris kedua dan ketiga, kita memiliki 0=2 dan 0=4, yang jelas tidak mungkin. Ini menunjukkan bahwa sistem persamaan ini tidak konsisten dan <strong>tidak memiliki solusi</strong>.</p></li>
 </ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 4 \
-0 &amp; 0 &amp; 0 &amp; | 2 \
-0 &amp; 0 &amp; 0 &amp; | 4
-\end{bmatrix}</p>
-<p>Langkah 3: Analisis Matriks Hasil<br />
-Setelah eliminasi, matriks menjadi:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 4 \
-0 &amp; 0 &amp; 0 &amp; | 2 \
-0 &amp; 0 &amp; 0 &amp; | 4
-\end{bmatrix}</p>
-<p>Pada baris kedua dan ketiga, kita memiliki 0=2 dan 0=4, yang jelas tidak mungkin. Ini menunjukkan bahwa sistem persamaan ini tidak konsisten dan <strong>tidak memiliki solusi</strong>.</p>
 </section>
 <section id="kesimpulan">
 <h2>Kesimpulan:<a class="headerlink" href="#kesimpulan" title="Link to this heading">#</a></h2>
@@ -465,108 +471,124 @@ Setelah eliminasi, matriks menjadi:</p>
 <section id="id1">
 <h2>Penyelesaian dengan eliminasi gaus :<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
 <p>Langkah 1: Tulis Matriks Augmented<br />
-Sistem persamaan di atas dapat ditulis dalam bentuk matriks augmented sebagai berikut:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-2 &amp; -1 &amp; 3 &amp; | 14 \
+Sistem persamaan di atas dapat ditulis dalam bentuk matriks augmented sebagai berikut:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+2 &amp; -1 &amp; 3 &amp; | 14 \\
 -1 &amp; 4 &amp; -1 &amp; | -2
-\end{bmatrix}</p>
-<p>Langkah 2: Eliminasi Gauss<br />
+\end{bmatrix}
+\)</span>$
+Langkah 2: Eliminasi Gauss<br />
 Kita akan melakukan operasi baris untuk mengubah matriks menjadi bentuk eselon baris.
 Operasi Baris 1: Membuat elemen di bawah a11 menjadi 0</p>
 <ol class="arabic simple">
-<li><p>Baris 2 - 2 × Baris 1:</p></li>
-</ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; -3 &amp; 1 &amp; | 2 \
+<li><p>Baris 2 - 2 × Baris 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; -3 &amp; 1 &amp; | 2 \\
 -1 &amp; 4 &amp; -1 &amp; | -2
-\end{bmatrix}</p>
-<ol class="arabic simple" start="2">
-<li><p>Baris 3 + Baris 1:</p></li>
-</ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; -3 &amp; 1 &amp; | 2 \
+\end{bmatrix}
+\)</span>$</p></li>
+<li><p>Baris 3 + Baris 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; -3 &amp; 1 &amp; | 2 \\
 0 &amp; 5 &amp; 0 &amp; | 4
-\end{bmatrix}</p>
-<p>Operasi Baris 2: Membuat elemen di bawah a22 menjadi 0</p>
-<ol class="arabic simple">
-<li><p>Baris 3 + 5/3 × Baris 2:</p></li>
-</ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; -3 &amp; 1 &amp; | 2 \
+\end{bmatrix}
+\)</span>$
+Operasi Baris 2: Membuat elemen di bawah a22 menjadi 0</p></li>
+<li><p>Baris 3 + 5/3 × Baris 2:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; -3 &amp; 1 &amp; | 2 \\
 0 &amp; 0 &amp; \frac{5}{3} &amp; | \frac{22}{3}
-\end{bmatrix}</p>
-<p>Langkah 3: Substitusi Balik (Back Substitution)
-Setelah eliminasi, matriks berada dalam bentuk eselon baris:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; -3 &amp; 1 &amp; | 2 \
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 3: Substitusi Balik (Back Substitution)
+Setelah eliminasi, matriks berada dalam bentuk eselon baris:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; -3 &amp; 1 &amp; | 2 \\
 0 &amp; 0 &amp; \frac{5}{3} &amp; | \frac{22}{3}
-\end{bmatrix}</p>
-<p>Langkah 3.1: Selesaikan untuk z
-Dari baris ketiga:</p>
-<p>\begin{bmatrix}
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 3.1: Selesaikan untuk z
+Dari baris ketiga:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 \frac{5}{3}z = \frac{22}{3}
 → z = \frac{22}{5}
-\end{bmatrix}</p>
-<p>Langkah 3.2: Selesaikan untuk y
-Dari baris kedua:</p>
-<p>\begin{bmatrix}
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 3.2: Selesaikan untuk y
+Dari baris kedua:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 -3y + z - 2 →
 -3y + \frac{22}{5} - 2 →
--3y - 2 - \frac{22}{5}
+-3y - 2 - \frac{22}{5} 
 = -\frac{12}{5}
 → y - \frac{4}{5}
-\end{bmatrix}</p>
-<p>Langkah 3.3: Selesaikan untuk x
-Dari baris pertama:</p>
-<p>\begin{bmatrix}
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 3.3: Selesaikan untuk x
+Dari baris pertama:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 x + y + z = 6 →
 x + \frac{4}{5} + \frac{22}{5} = 6 →
 x + \frac{26}{5} = 6 →
 x = 6 - \frac{26}{5}
 = \frac{4}{5}
-\end{bmatrix}</p>
-<p>Solusi Sistem Persamaan
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Solusi Sistem Persamaan
 Solusi sistem persamaan ini adalah:
+\)</span><span class="math notranslate nohighlight">\(
 \begin{bmatrix}
 (x, y, z) = \left( \frac{4}{5}, \frac{4}{5}, \frac{22}{5} \right)
-\end{bmatrix}</p>
-<p>Verifikasi Solusi
-Mari kita verifikasi solusi ini dengan substitusi ke dalam persamaan asli:</p>
-<ol class="arabic simple">
-<li><p>Persamaan 1:</p></li>
-</ol>
-<p>\begin{bmatrix}
-2x - y + 3z = 2(\ \frac{4}{5} ) - \frac{4}{5} )+3(\frac{22}{5})
+\end{bmatrix}
+\)</span>$
+Verifikasi Solusi
+Mari kita verifikasi solusi ini dengan substitusi ke dalam persamaan asli:</p></li>
+<li><p>Persamaan 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix} 
+2x - y + 3z = 2(\ \frac{4}{5} ) - \frac{4}{5} )+3(\frac{22}{5}) 
 = \frac{8}{5} - \frac{4}{5} + \frac{66}{5} = \frac{70}{5} = 14 \quad (\text{Benar})
-\end{bmatrix}</p>
-<ol class="arabic simple" start="2">
-<li><p>Persamaan 2:</p></li>
-</ol>
-<p>\begin{bmatrix}
+\end{bmatrix}
+\)</span>$</p></li>
+<li><p>Persamaan 2:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 2x - y + 3z = 2 \left(\frac{4}{5}\right) - \frac{4}{5} + 3\left(\frac{22}{5}\right)
 = \frac{8}{5} - \frac{4}{5} + \frac{66}{5} = \frac{70}{5} = 14 \quad (\text{Benar})
-\end{bmatrix}</p>
-<ol class="arabic simple" start="3">
-<li><p>Persamaan 3:</p></li>
-</ol>
-<p>\begin{bmatrix}
+\end{bmatrix}
+\)</span>$</p></li>
+<li><p>Persamaan 3:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 -x + 4y - z =
 -\left(\frac{4}{5}\right) + 4\left(\frac{4}{5}\right) - \frac{22}{5}
 = -\frac{4}{5} + \frac{16}{5} - \frac{22}{5}
 = -\frac{10}{5} = -2 \quad (\text{Benar})
-\end{bmatrix}</p>
+\end{bmatrix}
+\)</span>$</p></li>
+</ol>
 </section>
 <section id="id2">
 <h2>Kesimpulan<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
-<p>Sistem persamaan linear ini memiliki satu solusi, yaitu:</p>
-<p>\begin{bmatrix}
+<p>Sistem persamaan linear ini memiliki satu solusi, yaitu:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 x = \frac{4}{5}, \quad y = \frac{4}{5}, \quad z = \frac{22}{5}
-\end{bmatrix}</p>
+\end{bmatrix}
+\)</span>$</p>
 <iframe src="https://www.geogebra.org/calculator/apeg5wvm?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 </section>
 </section>
@@ -584,38 +606,44 @@ x = \frac{4}{5}, \quad y = \frac{4}{5}, \quad z = \frac{22}{5}
 <section id="id3">
 <h2>Penyelesaian dengan eliminasi gaus :<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
 <p>Langkah 1: Tulis Matriks Augmented
-Sistem persamaan di atas dapat ditulis dalam bentuk matriks augmented sebagai berikut:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-2 &amp; 2 &amp; 2 &amp; | 12 \
+Sistem persamaan di atas dapat ditulis dalam bentuk matriks augmented sebagai berikut:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+2 &amp; 2 &amp; 2 &amp; | 12 \\
 3 &amp; 3 &amp; 3 &amp; | 18
-\end{bmatrix}</p>
-<p>Langkah 2: Eliminasi Gauss
+\end{bmatrix}
+\)</span>$
+Langkah 2: Eliminasi Gauss
 Kita akan melakukan operasi baris untuk mengubah matriks menjadi bentuk eselon baris.</p>
 <p>Operasi Baris 1: Membuat elemen di bawah a11 menjadi 0</p>
 <ol class="arabic simple">
-<li><p>Baris 2 - 2 × Baris 1:</p></li>
-</ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; 0 &amp; 0 &amp; | 0 \
+<li><p>Baris 2 - 2 × Baris 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; 0 &amp; 0 &amp; | 0 \\
 3 &amp; 3 &amp; 3 &amp; | 18
-\end{bmatrix}</p>
-<ol class="arabic simple" start="2">
-<li><p>Baris 3 - 3 × Baris 1:</p></li>
+\end{bmatrix}
+\)</span>$</p></li>
+<li><p>Baris 3 - 3 × Baris 1:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; 0 &amp; 0 &amp; | 0 \\
+0 &amp; 0 &amp; 0 &amp; | 0
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 3: Analisis Matriks Hasil
+Setelah eliminasi, matriks menjadi:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 6 \\
+0 &amp; 0 &amp; 0 &amp; | 0 \\
+0 &amp; 0 &amp; 0 &amp; | 0
+\end{bmatrix}
+\)</span>$</p></li>
 </ol>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; 0 &amp; 0 &amp; | 0 \
-0 &amp; 0 &amp; 0 &amp; | 0
-\end{bmatrix}</p>
-<p>Langkah 3: Analisis Matriks Hasil
-Setelah eliminasi, matriks menjadi:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 6 \
-0 &amp; 0 &amp; 0 &amp; | 0 \
-0 &amp; 0 &amp; 0 &amp; | 0
-\end{bmatrix}</p>
 <ul class="simple">
 <li><p>Baris kedua dan ketiga semuanya adalah 0=0, yang menunjukkan bahwa persamaan-persamaan ini redundan (tidak memberikan informasi baru).</p></li>
 <li><p>Hanya satu persamaan yang independen, yaitu x+y+z=6.</p></li>
@@ -623,26 +651,32 @@ Setelah eliminasi, matriks menjadi:</p>
 <p>Langkah 4: Tentukan Solusi
 Karena hanya ada satu persamaan independen, sistem ini memiliki solusi tak hingga. Solusi umumnya dapat dinyatakan dalam bentuk parameter.</p>
 <p>Langkah 4.1: Tentukan Variabel Bebas
-Misalkan y dan z adalah variabel bebas. Kita dapat menyatakan x dalam bentuk y dan z:</p>
-<p>\begin{bmatrix}
+Misalkan y dan z adalah variabel bebas. Kita dapat menyatakan x dalam bentuk y dan z:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 x = 6 - y - z
-\end{bmatrix}</p>
-<p>Langkah 4.2: Tulis Solusi Umum
-Solusi umum sistem persamaan ini adalah:</p>
-<p>\begin{cases}
-x = 6 - y - z \
-y = y \quad \text{(variabel bebas)} \
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+Langkah 4.2: Tulis Solusi Umum
+Solusi umum sistem persamaan ini adalah:
+\)</span><span class="math notranslate nohighlight">\(
+\begin{cases}
+x = 6 - y - z \\
+y = y \quad \text{(variabel bebas)} \\
 z = z \quad \text{(variabel bebas)}
-\end{cases}</p>
-<p>Di mana y dan z dapat mengambil nilai berapa pun.</p>
+\end{cases}
+\)</span>$
+Di mana y dan z dapat mengambil nilai berapa pun.</p>
 </section>
 <section id="id4">
 <h2>Kesimpulan<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
-<p>Sistem persamaan linear ini memiliki solusi tak hingga. Solusi umumnya dapat dinyatakan sebagai:</p>
-<p>\begin{bmatrix}
+<p>Sistem persamaan linear ini memiliki solusi tak hingga. Solusi umumnya dapat dinyatakan sebagai:
+$<span class="math notranslate nohighlight">\(
+\begin{bmatrix}
 (x, y, z) = (6 - y - z, y, z)
-\end{bmatrix}</p>
-<p>di mana y dan z adalah parameter bebas.</p>
+\end{bmatrix}
+\)</span>$
+di mana y dan z adalah parameter bebas.</p>
 <iframe src="https://www.geogebra.org/calculator/vzt9k8ce?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 </section>
 </section>
@@ -746,7 +780,7 @@ By Mohammad Aziz Huzaini
 
   <p class="copyright">
     
-      © Copyright 2023.
+      © Copyright 2025.
       <br/>
     
   </p>
