@@ -1,5 +1,5 @@
 ---
-title: Penyelesaian Sistem Persamaan Linier 3 Dimensi Dengan Menggunakan Sistem Persamaan Linier Gaus
+title: Sistem Persamaan Linear Tiga Dimensi Tanpa Solusi
 
 ---
 
