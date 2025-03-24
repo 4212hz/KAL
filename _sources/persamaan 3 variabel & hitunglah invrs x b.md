@@ -1,9 +1,9 @@
 ---
-title: persamaan 3 variabel & hitunglah invrs x b 
+title: persamaan 3 variabel & hitunglah invrs x b
 
 ---
 
-# Buat persama 3 variabel (tidak boleh ada persaman yang sama) dan hitunglah invrs x b harus hasilnya 1,0 ,0
+# persamaan 3 variabel & hitunglah invrs x b
 
 ## Langkah 1: Membuat Sistem Persamaan Linear
 Kita membuat tiga persamaan linear dengan tiga variabel \(x\), \(y\), dan \(z\):
