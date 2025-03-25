@@ -191,7 +191,7 @@ $
 0 & 1 & 0 & 0 & -\frac{1}{5} & \frac{2}{5} \\
 0 & 0 & 1 & -\frac{1}{5} & \frac{7}{25} & \frac{1}{25}
 \end{bmatrix}
-
+$
 
 
 Langkah 8: $\begin{bmatrix} R_1 \rightarrow R_1 - 2R_3 :\end{bmatrix}$
