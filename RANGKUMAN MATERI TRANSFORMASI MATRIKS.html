@@ -418,33 +418,49 @@
 <span class="math notranslate nohighlight">\(T(c\vec{u}) = cT(\vec{u})\)</span>, untuk setiap skalar <span class="math notranslate nohighlight">\(c\)</span></p>
 <p>Contoh :</p>
 <p>Misalkan kita memiliki transformasi <span class="math notranslate nohighlight">\(T: \mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> yang didefinisikan oleh matriks:</p>
-<p>A = \begin{bmatrix} 2 &amp; 3 \ -1 &amp; 4 \end{bmatrix}</p>
-<p>dan dua vektor:</p>
-<p><span class="math notranslate nohighlight">\(\vec{u}\)</span> = \begin{bmatrix} 1 \ 2 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{v}\)</span> = \begin{bmatrix} -1 \ 0 \end{bmatrix}
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} 2 &amp; 3 \\ -1 &amp; 4 \end{bmatrix}
+\)</span>
+dan dua vektor:</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{u}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 2 \end{bmatrix}
+\)</span>\vec{v}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -1 \\ 0 \end{bmatrix}
+\)</span>
 c = 5</p>
 <p>Hitung <span class="math notranslate nohighlight">\(T(\vec{u})\)</span>, <span class="math notranslate nohighlight">\(T(\vec{v})\)</span>, <span class="math notranslate nohighlight">\(T(\vec{u} + \vec{v})\)</span>, dan <span class="math notranslate nohighlight">\(T(c\vec{u})\)</span>:</p>
-<p><span class="math notranslate nohighlight">\(T(\vec{u}) = A\vec{u}\)</span> = \begin{bmatrix} 2 &amp; 3 \ -1 &amp; 4 \end{bmatrix}
-\begin{bmatrix} 1 \ 2 \end{bmatrix} =
-\begin{bmatrix} 2(1) + 3(2) \ -1(1) + 4(2) \end{bmatrix} =
-\begin{bmatrix} 8 \ 7 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(T(\vec{v}) = A\vec{v}\)</span> = \begin{bmatrix} 2 &amp; 3 \ -1 &amp; 4 \end{bmatrix}
-\begin{bmatrix} -1 \ 0 \end{bmatrix} =
-\begin{bmatrix} 2(-1) + 3(0) \ -1(-1) + 4(0) \end{bmatrix} =
-\begin{bmatrix} -2 \ 1 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(\vec{u} + \vec{v}\)</span> = \begin{bmatrix} 1 + (-1) \ 2 + 0 \end{bmatrix} =
-\begin{bmatrix} 0 \ 2 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\Rightarrow T(\vec{u} + \vec{v})\)</span> = A \begin{bmatrix} 0 \ 2 \end{bmatrix} =
-\begin{bmatrix} 6 \ 8 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(T(\vec{u}) + T(\vec{v})\)</span> = \begin{bmatrix} 8 \ 7 \end{bmatrix} + \begin{bmatrix} -2 \ 1 \end{bmatrix} =
-\begin{bmatrix} 6 \ 8 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\Rightarrow T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})\)</span></p>
-<p><span class="math notranslate nohighlight">\(T(c\vec{u}) = A(c\vec{u})\)</span> = A \begin{bmatrix} 5 \ 10 \end{bmatrix} =
-\begin{bmatrix} 2(5) + 3(10) \ -1(5) + 4(10) \end{bmatrix} =
-\begin{bmatrix} 40 \ 35 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(cT(\vec{u})\)</span> = 5 \begin{bmatrix} 8 \ 7 \end{bmatrix} =
-\begin{bmatrix} 40 \ 35 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\Rightarrow T(c\vec{u}) = cT(\vec{u})\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>T(\vec{u}) = A\vec{u}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2 &amp; 3 \\ -1 &amp; 4 \end{bmatrix} 
+\begin{bmatrix} 1 \\ 2 \end{bmatrix} = 
+\begin{bmatrix} 2(1) + 3(2) \\ -1(1) + 4(2) \end{bmatrix} = 
+\begin{bmatrix} 8 \\ 7 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>T(\vec{v}) = A\vec{v}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2 &amp; 3 \\ -1 &amp; 4 \end{bmatrix}
+\begin{bmatrix} -1 \\ 0 \end{bmatrix} =
+\begin{bmatrix} 2(-1) + 3(0) \\ -1(-1) + 4(0) \end{bmatrix} =
+\begin{bmatrix} -2 \\ 1 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{u} + \vec{v}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 + (-1) \\ 2 + 0 \end{bmatrix} = 
+\begin{bmatrix} 0 \\ 2 \end{bmatrix}
+\)</span>\Rightarrow T(\vec{u} + \vec{v})<span class="math notranslate nohighlight">\( = A \begin{bmatrix} 0 \\ 2 \end{bmatrix} =
+\begin{bmatrix} 6 \\ 8 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>T(\vec{u}) + T(\vec{v})<span class="math notranslate nohighlight">\( = \begin{bmatrix} 8 \\ 7 \end{bmatrix} + \begin{bmatrix} -2 \\ 1 \end{bmatrix} = 
+\begin{bmatrix} 6 \\ 8 \end{bmatrix}
+\)</span>\Rightarrow T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})<span class="math notranslate nohighlight">\(
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>T(c\vec{u}) = A(c\vec{u})<span class="math notranslate nohighlight">\( = A \begin{bmatrix} 5 \\ 10 \end{bmatrix} = 
+\begin{bmatrix} 2(5) + 3(10) \\ -1(5) + 4(10) \end{bmatrix} =
+\begin{bmatrix} 40 \\ 35 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>cT(\vec{u})<span class="math notranslate nohighlight">\( = 5 \begin{bmatrix} 8 \\ 7 \end{bmatrix} = 
+\begin{bmatrix} 40 \\ 35 \end{bmatrix}
+\)</span>\Rightarrow T(c\vec{u}) = cT(\vec{u})<span class="math notranslate nohighlight">\(
+\)</span></p>
 <p>Kesimpulan</p>
 <p>Transformasi <span class="math notranslate nohighlight">\(T(\vec{x}) = A\vec{x}\)</span> dengan <span class="math notranslate nohighlight">\(A = \begin{bmatrix} 2 &amp; 3 \\ -1 &amp; 4 \end{bmatrix}\)</span> merupakan transformasi linear karena memenuhi:</p>
 <p><span class="math notranslate nohighlight">\(T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})\)</span>
@@ -455,38 +471,57 @@ c = 5</p>
 <h2>Matriks dan Perkalian Vektor<a class="headerlink" href="#matriks-dan-perkalian-vektor" title="Link to this heading">#</a></h2>
 <p>Untuk mempermudah visualisasi, kita membatasi pembahasan pada vektor di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span>. Untuk mendapatkan hasil vektor 2D dari perkalian matriks, kita gunakan matriks <span class="math notranslate nohighlight">\(2 \times 2\)</span>.</p>
 <p>Misalkan:</p>
-<p>A = \begin{bmatrix} 2 &amp; -1 \ 0 &amp; 3 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 2 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} -2 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{z}\)</span> = \begin{bmatrix} 0 \ -1 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} 2 &amp; -1 \\ 0 &amp; 3 \end{bmatrix}
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 2 \end{bmatrix}
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -2 \\ 1 \end{bmatrix}
+\)</span>\vec{z}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 0 \\ -1 \end{bmatrix}
+\)</span></p>
 <p>Maka hasil transformasinya:</p>
-<p><span class="math notranslate nohighlight">\(A\vec{x}\)</span> = \begin{bmatrix} 2(1) + (-1)(2) \ 0(1) + 3(2) \end{bmatrix}
-= \begin{bmatrix} 0 \ 6 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(A\vec{y}\)</span> = \begin{bmatrix} 2(-2) + (-1)(1) \ 0(-2) + 3(1) \end{bmatrix}
-= \begin{bmatrix} -5 \ 3 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(A\vec{z}\)</span> = \begin{bmatrix} 2(0) + (-1)(-1) \ 0(0) + 3(-1) \end{bmatrix}
-= \begin{bmatrix} 1 \ -3 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2(1) + (-1)(2) \\ 0(1) + 3(2) \end{bmatrix}
+= \begin{bmatrix} 0 \\ 6 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2(-2) + (-1)(1) \\ 0(-2) + 3(1) \end{bmatrix}
+= \begin{bmatrix} -5 \\ 3 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{z}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2(0) + (-1)(-1) \\ 0(0) + 3(-1) \end{bmatrix}
+= \begin{bmatrix} 1 \\ -3 \end{bmatrix}
+\)</span></p>
 <p>Setelah dikalikan dengan <span class="math notranslate nohighlight">\(A\)</span>, panjang dan arah vektor bisa berubah. Misalnya, <span class="math notranslate nohighlight">\(\vec{y}\)</span> dan <span class="math notranslate nohighlight">\(\vec{z}\)</span> berubah arah setelah transformasi.</p>
 <section id="contoh-penjumlahan-dan-perkalian-matriks-versi-baru">
 <h3>Contoh Penjumlahan dan Perkalian Matriks (Versi Baru<a class="headerlink" href="#contoh-penjumlahan-dan-perkalian-matriks-versi-baru" title="Link to this heading">#</a></h3>
 <p>Misalkan:</p>
-<p>A = \begin{bmatrix} 3 &amp; 0 \ 1 &amp; -1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{p}\)</span> = \begin{bmatrix} 1 \ 3 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{q}\)</span> = \begin{bmatrix} 2 \ -1 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} 3 &amp; 0 \\ 1 &amp; -1 \end{bmatrix}
+\)</span>\vec{p}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 3 \end{bmatrix}
+\)</span>\vec{q}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2 \\ -1 \end{bmatrix}
+\)</span></p>
 <p>Langkah pertama:</p>
-<p><span class="math notranslate nohighlight">\(\vec{p} + \vec{q}\)</span> = \begin{bmatrix} 1 + 2 \ 3 + (-1) \end{bmatrix}
-= \begin{bmatrix} 3 \ 2 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{p} + \vec{q}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 + 2 \\ 3 + (-1) \end{bmatrix}
+= \begin{bmatrix} 3 \\ 2 \end{bmatrix}
+\)</span></p>
 <p>Transformasi masing-masing:</p>
-<p><span class="math notranslate nohighlight">\(A\vec{p}\)</span> = \begin{bmatrix} 3(1) + 0(3) \ 1(1) + (-1)(3) \end{bmatrix}
-= \begin{bmatrix} 3 \ -2 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(A\vec{q}\)</span> = \begin{bmatrix} 3(2) + 0(-1) \ 1(2) + (-1)(-1) \end{bmatrix}
-= \begin{bmatrix} 6 \ 3 \end{bmatrix}</p>
-<p><span class="math notranslate nohighlight">\(A(\vec{p} + \vec{q})\)</span> = A\begin{bmatrix} 3 \ 2 \end{bmatrix}
-= \begin{bmatrix} 3(3) + 0(2) \ 1(3) + (-1)(2) \end{bmatrix}
-= \begin{bmatrix} 9 \ 1 \end{bmatrix}</p>
-<p>[
-<span class="math notranslate nohighlight">\(A\vec{p} + A\vec{q}\)</span> = \begin{bmatrix} 3 \ -2 \end{bmatrix} + \begin{bmatrix} 6 \ 3 \end{bmatrix}
-= \begin{bmatrix} 9 \ 1 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{p}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 3(1) + 0(3) \\ 1(1) + (-1)(3) \end{bmatrix}
+= \begin{bmatrix} 3 \\ -2 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{q}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 3(2) + 0(-1) \\ 1(2) + (-1)(-1) \end{bmatrix}
+= \begin{bmatrix} 6 \\ 3 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A(\vec{p} + \vec{q})<span class="math notranslate nohighlight">\( = A\begin{bmatrix} 3 \\ 2 \end{bmatrix}
+= \begin{bmatrix} 3(3) + 0(2) \\ 1(3) + (-1)(2) \end{bmatrix}
+= \begin{bmatrix} 9 \\ 1 \end{bmatrix}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{p} + A\vec{q}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 3 \\ -2 \end{bmatrix} + \begin{bmatrix} 6 \\ 3 \end{bmatrix}
+= \begin{bmatrix} 9 \\ 1 \end{bmatrix}
+\)</span></p>
 <p>Hal ini membuktikan bahwa:</p>
 <p><span class="math notranslate nohighlight">\(A(\vec{p} + \vec{q}) = A\vec{p} + A\vec{q}\)</span></p>
 <p>yang menunjukkan sifat linear dari transformasi matriks.</p>
@@ -571,85 +606,115 @@ S \begin{bmatrix} 3 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 4 \end{bmatrix}
 <p>Diberikan <span class="math notranslate nohighlight">\(\vec{x} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\)</span> dan <span class="math notranslate nohighlight">\(\vec{y} = \begin{bmatrix} -1 \\ 2 \end{bmatrix}\)</span>, hitung dan sketsa:</p>
 <section id="soal-1">
 <h3>Soal 1<a class="headerlink" href="#soal-1" title="Link to this heading">#</a></h3>
-<p>A = \begin{bmatrix} 1 &amp; -1 \ 2 &amp; 3 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} 1 &amp; -1 \\ 2 &amp; 3 \end{bmatrix}
+\)</span></p>
 <p>Dan dua vektor sebagai berikut:</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} -1 \ 2 \end{bmatrix}</p>
-<p>Langkah 1 : Mencari hasil transformasi dari vektor <span class="math notranslate nohighlight">\(\vec{x}\)</span> oleh matriks <span class="math notranslate nohighlight">\(A\)</span>:</p>
-<p><span class="math notranslate nohighlight">\(A\vec{x}\)</span> =
-\begin{bmatrix} 1 &amp; -1 \ 2 &amp; 3 \end{bmatrix}
-\begin{bmatrix} 1 \ 1 \end{bmatrix} =
-\begin{bmatrix} 1(1) + (-1)(1) \ 2(1) + 3(1) \end{bmatrix} =
-\begin{bmatrix} 0 \ 5 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 1 \end{bmatrix} 
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+\)</span></p>
+<p>Langkah 1 : Mencari hasil transformasi dari vektor <span class="math notranslate nohighlight">\(\vec{x}\)</span> oleh matriks <span class="math notranslate nohighlight">\(A\)</span>:
+<span class="math notranslate nohighlight">\(
+\)</span>A\vec{x}<span class="math notranslate nohighlight">\( =
+\begin{bmatrix} 1 &amp; -1 \\ 2 &amp; 3 \end{bmatrix}
+\begin{bmatrix} 1 \\ 1 \end{bmatrix} =
+\begin{bmatrix} 1(1) + (-1)(1) \\ 2(1) + 3(1) \end{bmatrix} =
+\begin{bmatrix} 0 \\ 5 \end{bmatrix}
+\)</span></p>
 <p>Langkah 2 : Mencari hasil transformasi dari vektor <span class="math notranslate nohighlight">\(\vec{y}\)</span> oleh matriks <span class="math notranslate nohighlight">\(A\)</span>:</p>
-<p><span class="math notranslate nohighlight">\(A\vec{y}\)</span> =
-\begin{bmatrix} 1 &amp; -1 \ 2 &amp; 3 \end{bmatrix}
-\begin{bmatrix} -1 \ 2 \end{bmatrix} =
-\begin{bmatrix} 1(-1) + (-1)(2) \ 2(-1) + 3(2) \end{bmatrix} =
-\begin{bmatrix} -1 - 2 \ -2 + 6 \end{bmatrix} =
-\begin{bmatrix} -3 \ 4 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{y}<span class="math notranslate nohighlight">\( =
+\begin{bmatrix} 1 &amp; -1 \\ 2 &amp; 3 \end{bmatrix}
+\begin{bmatrix} -1 \\ 2 \end{bmatrix} =
+\begin{bmatrix} 1(-1) + (-1)(2) \\ 2(-1) + 3(2) \end{bmatrix} =
+\begin{bmatrix} -1 - 2 \\ -2 + 6 \end{bmatrix} =
+\begin{bmatrix} -3 \\ 4 \end{bmatrix}
+\)</span></p>
 <p>Hasil :</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} -1 \ 2 \end{bmatrix}
-<span class="math notranslate nohighlight">\(A\vec{x}\)</span> = \begin{bmatrix} 0 \ 5 \end{bmatrix}
-<span class="math notranslate nohighlight">\(A\vec{y}\)</span> = \begin{bmatrix} -3 \ 4 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+\)</span>A\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 0 \\ 5 \end{bmatrix}
+\)</span>A\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -3 \\ 4 \end{bmatrix}
+\)</span></p>
 <p><img alt="1" src="https://hackmd.io/_uploads/B1Z0EdDA1g.png" /></p>
 </section>
 <hr class="docutils" />
 <section id="soal-2">
 <h3>Soal 2<a class="headerlink" href="#soal-2" title="Link to this heading">#</a></h3>
-<p>A = \begin{bmatrix} 2 &amp; 0 \ -1 &amp; 3 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} 2 &amp; 0 \\ -1 &amp; 3 \end{bmatrix}
+\)</span></p>
 <p>Dan dua buah vektor:</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} -1 \ 2 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 1 \end{bmatrix} 
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+\)</span></p>
 <p>Langkah pertama : Hitung hasil dari <span class="math notranslate nohighlight">\(A\vec{x}\)</span></p>
-<p><span class="math notranslate nohighlight">\(A\vec{x}\)</span> =
-\begin{bmatrix} 2 &amp; 0 \ -1 &amp; 3 \end{bmatrix}
-\begin{bmatrix} 1 \ 1 \end{bmatrix} =
-\begin{bmatrix} 2(1) + 0(1) \ -1(1) + 3(1) \end{bmatrix} =
-\begin{bmatrix} 2 \ 2 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{x}<span class="math notranslate nohighlight">\( = 
+\begin{bmatrix} 2 &amp; 0 \\ -1 &amp; 3 \end{bmatrix}
+\begin{bmatrix} 1 \\ 1 \end{bmatrix} =
+\begin{bmatrix} 2(1) + 0(1) \\ -1(1) + 3(1) \end{bmatrix} =
+\begin{bmatrix} 2 \\ 2 \end{bmatrix}
+\)</span></p>
 <p>Langkah kedua : Hitung hasil dari <span class="math notranslate nohighlight">\(A\vec{y}\)</span></p>
-<p><span class="math notranslate nohighlight">\(A\vec{y}\)</span> =
-\begin{bmatrix} 2 &amp; 0 \ -1 &amp; 3 \end{bmatrix}
-\begin{bmatrix} -1 \ 2 \end{bmatrix} =
-\begin{bmatrix} 2(-1) + 0(2) \ -1(-1) + 3(2) \end{bmatrix} =
-\begin{bmatrix} -2 \ 1 + 6 \end{bmatrix} =
-\begin{bmatrix} -2 \ 7 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>A\vec{y}<span class="math notranslate nohighlight">\( = 
+\begin{bmatrix} 2 &amp; 0 \\ -1 &amp; 3 \end{bmatrix}
+\begin{bmatrix} -1 \\ 2 \end{bmatrix} =
+\begin{bmatrix} 2(-1) + 0(2) \\ -1(-1) + 3(2) \end{bmatrix} =
+\begin{bmatrix} -2 \\ 1 + 6 \end{bmatrix} =
+\begin{bmatrix} -2 \\ 7 \end{bmatrix}
+\)</span></p>
 <p>Hasil :</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} -1 \ 2 \end{bmatrix}
-<span class="math notranslate nohighlight">\(A\vec{x}\)</span> = \begin{bmatrix} 2 \ 2 \end{bmatrix}
-<span class="math notranslate nohighlight">\(A\vec{y}\)</span> = \begin{bmatrix} -2 \ 7 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+\)</span>A\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 2 \\ 2 \end{bmatrix}
+\)</span>A\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} -2 \\ 7 \end{bmatrix}
+\)</span></p>
 <p><img alt="2" src="https://hackmd.io/_uploads/rkyU8dP01l.png" /></p>
 </section>
 <hr class="docutils" />
 <section id="soal-5">
 <h3>Soal 5<a class="headerlink" href="#soal-5" title="Link to this heading">#</a></h3>
 <p>Misalkan titik awal berada di origin <span class="math notranslate nohighlight">\((0, 0)\)</span>. Diberikan dua vektor dasar:</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 0 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} 0 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{x} + \vec{y}\)</span> = \begin{bmatrix} 1 \ 1 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 0 \\ 1 \end{bmatrix}
+\)</span>\vec{x} + \vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+\)</span></p>
 <p>Setelah dikenai transformasi oleh matriks <span class="math notranslate nohighlight">\(A\)</span>, didapatkan:</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> dipetakan ke titik <span class="math notranslate nohighlight">\((0.5, 1)\)</span>
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> dipetakan ke titik <span class="math notranslate nohighlight">\((1, 2)\)</span>
-<span class="math notranslate nohighlight">\(\vec{x} + \vec{y}\)</span> dipetakan ke titik <span class="math notranslate nohighlight">\((1.5, 3)\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( dipetakan ke titik \)</span>(0.5, 1)<span class="math notranslate nohighlight">\(
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( dipetakan ke titik \)</span>(1, 2)<span class="math notranslate nohighlight">\(
+\)</span>\vec{x} + \vec{y}<span class="math notranslate nohighlight">\( dipetakan ke titik \)</span>(1.5, 3)<span class="math notranslate nohighlight">\(
+\)</span></p>
 <p>Sehingga dapat disimpulkan bahwa matriks transformasi <span class="math notranslate nohighlight">\(A\)</span> adalah:</p>
-<p>A = \begin{bmatrix} 0.5 &amp; 1 \ 1 &amp; 2 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} 0.5 &amp; 1 \\ 1 &amp; 2 \end{bmatrix}
+\)</span></p>
 <p><img alt="5" src="https://hackmd.io/_uploads/rkLjXYwAkl.png" /></p>
 </section>
 <hr class="docutils" />
 <section id="soal-6">
 <h3>Soal 6<a class="headerlink" href="#soal-6" title="Link to this heading">#</a></h3>
 <p>Titik awal terletak di <span class="math notranslate nohighlight">\((0, 0)\)</span> dan diberikan dua vektor:</p>
-<p><span class="math notranslate nohighlight">\(\vec{x}\)</span> = \begin{bmatrix} 1 \ 0 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{y}\)</span> = \begin{bmatrix} 0 \ 1 \end{bmatrix}
-<span class="math notranslate nohighlight">\(\vec{x} + \vec{y}\)</span> = \begin{bmatrix} 1 \ 1 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+\)</span>\vec{x}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
+\)</span>\vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 0 \\ 1 \end{bmatrix}
+\)</span>\vec{x} + \vec{y}<span class="math notranslate nohighlight">\( = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+\)</span></p>
 <p>Setelah diterapkan transformasi, didapatkan hasil berikut:</p>
 <p><span class="math notranslate nohighlight">\(\vec{x}\)</span> menjadi <span class="math notranslate nohighlight">\((-1, 1)\)</span>
 <span class="math notranslate nohighlight">\(\vec{y}\)</span> menjadi <span class="math notranslate nohighlight">\((1, 1)\)</span>
 <span class="math notranslate nohighlight">\(\vec{x} + \vec{y}\)</span> menjadi <span class="math notranslate nohighlight">\((0, 2)\)</span></p>
 <p>Maka, matriks transformasi yang sesuai adalah:</p>
-<p>A = \begin{bmatrix} -1 &amp; 1 \ 1 &amp; 1 \end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+A = \begin{bmatrix} -1 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}
+\)</span></p>
 <p><img alt="6" src="https://hackmd.io/_uploads/H1S5IFwCJx.png" /></p>
 </section>
 </section>

@@ -24,42 +24,57 @@ Contoh :
 
 Misalkan kita memiliki transformasi $T: \mathbb{R}^2 \rightarrow \mathbb{R}^2$ yang didefinisikan oleh matriks:
 
+$
 A = \begin{bmatrix} 2 & 3 \\ -1 & 4 \end{bmatrix}
-
+$ 
 dan dua vektor:
 
+$
 $\vec{u}$ = \begin{bmatrix} 1 \\ 2 \end{bmatrix}
 $\vec{v}$ = \begin{bmatrix} -1 \\ 0 \end{bmatrix}
+$
 c = 5
 
 Hitung $T(\vec{u})$, $T(\vec{v})$, $T(\vec{u} + \vec{v})$, dan $T(c\vec{u})$:
 
+$
 $T(\vec{u}) = A\vec{u}$ = \begin{bmatrix} 2 & 3 \\ -1 & 4 \end{bmatrix} 
 \begin{bmatrix} 1 \\ 2 \end{bmatrix} = 
 \begin{bmatrix} 2(1) + 3(2) \\ -1(1) + 4(2) \end{bmatrix} = 
 \begin{bmatrix} 8 \\ 7 \end{bmatrix}
+$
 
+$
 $T(\vec{v}) = A\vec{v}$ = \begin{bmatrix} 2 & 3 \\ -1 & 4 \end{bmatrix}
 \begin{bmatrix} -1 \\ 0 \end{bmatrix} =
 \begin{bmatrix} 2(-1) + 3(0) \\ -1(-1) + 4(0) \end{bmatrix} =
 \begin{bmatrix} -2 \\ 1 \end{bmatrix}
+$
 
+$
 $\vec{u} + \vec{v}$ = \begin{bmatrix} 1 + (-1) \\ 2 + 0 \end{bmatrix} = 
 \begin{bmatrix} 0 \\ 2 \end{bmatrix}
 $\Rightarrow T(\vec{u} + \vec{v})$ = A \begin{bmatrix} 0 \\ 2 \end{bmatrix} =
 \begin{bmatrix} 6 \\ 8 \end{bmatrix}
+$
 
+$
 $T(\vec{u}) + T(\vec{v})$ = \begin{bmatrix} 8 \\ 7 \end{bmatrix} + \begin{bmatrix} -2 \\ 1 \end{bmatrix} = 
 \begin{bmatrix} 6 \\ 8 \end{bmatrix}
 $\Rightarrow T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})$
+$
 
+$
 $T(c\vec{u}) = A(c\vec{u})$ = A \begin{bmatrix} 5 \\ 10 \end{bmatrix} = 
 \begin{bmatrix} 2(5) + 3(10) \\ -1(5) + 4(10) \end{bmatrix} =
 \begin{bmatrix} 40 \\ 35 \end{bmatrix}
+$
 
+$
 $cT(\vec{u})$ = 5 \begin{bmatrix} 8 \\ 7 \end{bmatrix} = 
 \begin{bmatrix} 40 \\ 35 \end{bmatrix}
 $\Rightarrow T(c\vec{u}) = cT(\vec{u})$
+$
 
 Kesimpulan
 
@@ -76,21 +91,29 @@ Untuk mempermudah visualisasi, kita membatasi pembahasan pada vektor di $\mathbb
 
 Misalkan:
 
+$
 A = \begin{bmatrix} 2 & -1 \\ 0 & 3 \end{bmatrix}
 $\vec{x}$ = \begin{bmatrix} 1 \\ 2 \end{bmatrix}
 $\vec{y}$ = \begin{bmatrix} -2 \\ 1 \end{bmatrix}
 $\vec{z}$ = \begin{bmatrix} 0 \\ -1 \end{bmatrix}
+$
 
 Maka hasil transformasinya:
 
+$
 $A\vec{x}$ = \begin{bmatrix} 2(1) + (-1)(2) \\ 0(1) + 3(2) \end{bmatrix}
 = \begin{bmatrix} 0 \\ 6 \end{bmatrix}
+$
 
+$
 $A\vec{y}$ = \begin{bmatrix} 2(-2) + (-1)(1) \\ 0(-2) + 3(1) \end{bmatrix}
 = \begin{bmatrix} -5 \\ 3 \end{bmatrix}
+$
 
+$
 $A\vec{z}$ = \begin{bmatrix} 2(0) + (-1)(-1) \\ 0(0) + 3(-1) \end{bmatrix}
 = \begin{bmatrix} 1 \\ -3 \end{bmatrix}
+$
 
 Setelah dikalikan dengan $A$, panjang dan arah vektor bisa berubah. Misalnya, $\vec{y}$ dan $\vec{z}$ berubah arah setelah transformasi.
 
@@ -98,31 +121,41 @@ Setelah dikalikan dengan $A$, panjang dan arah vektor bisa berubah. Misalnya, $\
 
 Misalkan:
 
+$
 A = \begin{bmatrix} 3 & 0 \\ 1 & -1 \end{bmatrix}
 $\vec{p}$ = \begin{bmatrix} 1 \\ 3 \end{bmatrix}
 $\vec{q}$ = \begin{bmatrix} 2 \\ -1 \end{bmatrix}
-
+$
 
 Langkah pertama:
 
+$
 $\vec{p} + \vec{q}$ = \begin{bmatrix} 1 + 2 \\ 3 + (-1) \end{bmatrix}
 = \begin{bmatrix} 3 \\ 2 \end{bmatrix}
+$
 
 Transformasi masing-masing:
 
+$
 $A\vec{p}$ = \begin{bmatrix} 3(1) + 0(3) \\ 1(1) + (-1)(3) \end{bmatrix}
 = \begin{bmatrix} 3 \\ -2 \end{bmatrix}
+$
 
+$
 $A\vec{q}$ = \begin{bmatrix} 3(2) + 0(-1) \\ 1(2) + (-1)(-1) \end{bmatrix}
 = \begin{bmatrix} 6 \\ 3 \end{bmatrix}
+$
 
+$
 $A(\vec{p} + \vec{q})$ = A\begin{bmatrix} 3 \\ 2 \end{bmatrix}
 = \begin{bmatrix} 3(3) + 0(2) \\ 1(3) + (-1)(2) \end{bmatrix}
 = \begin{bmatrix} 9 \\ 1 \end{bmatrix}
+$
 
-\[
+$
 $A\vec{p} + A\vec{q}$ = \begin{bmatrix} 3 \\ -2 \end{bmatrix} + \begin{bmatrix} 6 \\ 3 \end{bmatrix}
 = \begin{bmatrix} 9 \\ 1 \end{bmatrix}
+$
 
 Hal ini membuktikan bahwa:
 
@@ -212,73 +245,91 @@ Diberikan $\vec{x} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$ dan $\vec{y} = \begin
 
 ### Soal 1
 
+$
 A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}
-
+$
 
 Dan dua vektor sebagai berikut:
 
+$
 $\vec{x}$ = \begin{bmatrix} 1 \\ 1 \end{bmatrix} 
 $\vec{y}$ = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+$
 
 Langkah 1 : Mencari hasil transformasi dari vektor $\vec{x}$ oleh matriks $A$:
-
+$
 $A\vec{x}$ =
 \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}
 \begin{bmatrix} 1 \\ 1 \end{bmatrix} =
 \begin{bmatrix} 1(1) + (-1)(1) \\ 2(1) + 3(1) \end{bmatrix} =
 \begin{bmatrix} 0 \\ 5 \end{bmatrix}
+$
 
 Langkah 2 : Mencari hasil transformasi dari vektor $\vec{y}$ oleh matriks $A$:
 
+$
 $A\vec{y}$ =
 \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}
 \begin{bmatrix} -1 \\ 2 \end{bmatrix} =
 \begin{bmatrix} 1(-1) + (-1)(2) \\ 2(-1) + 3(2) \end{bmatrix} =
 \begin{bmatrix} -1 - 2 \\ -2 + 6 \end{bmatrix} =
 \begin{bmatrix} -3 \\ 4 \end{bmatrix}
+$
 
 Hasil :
 
+$
 $\vec{x}$ = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
 $\vec{y}$ = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
 $A\vec{x}$ = \begin{bmatrix} 0 \\ 5 \end{bmatrix}
 $A\vec{y}$ = \begin{bmatrix} -3 \\ 4 \end{bmatrix}
+$
 
 ![1](https://hackmd.io/_uploads/B1Z0EdDA1g.png)
 
 ---
 
 ### Soal 2
+$
 A = \begin{bmatrix} 2 & 0 \\ -1 & 3 \end{bmatrix}
+$
 
 Dan dua buah vektor:
 
+$
 $\vec{x}$ = \begin{bmatrix} 1 \\ 1 \end{bmatrix} 
 $\vec{y}$ = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+$
 
 Langkah pertama : Hitung hasil dari $A\vec{x}$
 
+$
 $A\vec{x}$ = 
 \begin{bmatrix} 2 & 0 \\ -1 & 3 \end{bmatrix}
 \begin{bmatrix} 1 \\ 1 \end{bmatrix} =
 \begin{bmatrix} 2(1) + 0(1) \\ -1(1) + 3(1) \end{bmatrix} =
 \begin{bmatrix} 2 \\ 2 \end{bmatrix}
+$
 
 Langkah kedua : Hitung hasil dari $A\vec{y}$
 
+$
 $A\vec{y}$ = 
 \begin{bmatrix} 2 & 0 \\ -1 & 3 \end{bmatrix}
 \begin{bmatrix} -1 \\ 2 \end{bmatrix} =
 \begin{bmatrix} 2(-1) + 0(2) \\ -1(-1) + 3(2) \end{bmatrix} =
 \begin{bmatrix} -2 \\ 1 + 6 \end{bmatrix} =
 \begin{bmatrix} -2 \\ 7 \end{bmatrix}
+$
 
 Hasil :
 
+$
 $\vec{x}$ = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
 $\vec{y}$ = \begin{bmatrix} -1 \\ 2 \end{bmatrix}
 $A\vec{x}$ = \begin{bmatrix} 2 \\ 2 \end{bmatrix}
 $A\vec{y}$ = \begin{bmatrix} -2 \\ 7 \end{bmatrix}
+$
 
 ![2](https://hackmd.io/_uploads/rkyU8dP01l.png)
 
@@ -288,19 +339,25 @@ $A\vec{y}$ = \begin{bmatrix} -2 \\ 7 \end{bmatrix}
 
 Misalkan titik awal berada di origin $(0, 0)$. Diberikan dua vektor dasar:
 
+$
 $\vec{x}$ = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
 $\vec{y}$ = \begin{bmatrix} 0 \\ 1 \end{bmatrix}
 $\vec{x} + \vec{y}$ = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+$
 
 Setelah dikenai transformasi oleh matriks $A$, didapatkan:
 
+$
 $\vec{x}$ dipetakan ke titik $(0.5, 1)$
 $\vec{y}$ dipetakan ke titik $(1, 2)$
 $\vec{x} + \vec{y}$ dipetakan ke titik $(1.5, 3)$
+$
 
 Sehingga dapat disimpulkan bahwa matriks transformasi $A$ adalah:
 
+$
 A = \begin{bmatrix} 0.5 & 1 \\ 1 & 2 \end{bmatrix}
+$
 
 ![5](https://hackmd.io/_uploads/rkLjXYwAkl.png)
 
@@ -310,9 +367,11 @@ A = \begin{bmatrix} 0.5 & 1 \\ 1 & 2 \end{bmatrix}
 
 Titik awal terletak di $(0, 0)$ dan diberikan dua vektor:
 
+$
 $\vec{x}$ = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
 $\vec{y}$ = \begin{bmatrix} 0 \\ 1 \end{bmatrix}
 $\vec{x} + \vec{y}$ = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+$
 
 Setelah diterapkan transformasi, didapatkan hasil berikut:
 
@@ -322,6 +381,8 @@ $\vec{x} + \vec{y}$ menjadi $(0, 2)$
 
 Maka, matriks transformasi yang sesuai adalah:
 
+$
 A = \begin{bmatrix} -1 & 1 \\ 1 & 1 \end{bmatrix}
+$
 
 ![6](https://hackmd.io/_uploads/H1S5IFwCJx.png)
