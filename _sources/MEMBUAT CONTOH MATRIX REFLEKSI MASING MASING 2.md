@@ -16,7 +16,7 @@ title: MEMBUAT CONTOH MATRIX REFLEKSI MASING MASING 2
 
 ### 1. Refleksi Terhadap Sumbu X  
 **Rumus Transformasi:**  
-$$
+$
 \begin{bmatrix} 
 x' \\ 
 y' 
@@ -29,22 +29,22 @@ y'
 x \\ 
 y 
 \end{bmatrix}
-$$
+$
 
 **Contoh 1:**  
-- Titik awal $$ A = \begin{bmatrix} 3 \\ 4 \end{bmatrix} $$  
+- Titik awal $ A = \begin{bmatrix} 3 \\ 4 \end{bmatrix} $  
 - Hasil refleksi:  
-$$
+$
 A' = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 3 \\ 4 \end{bmatrix} = \begin{bmatrix} 3 \\ -4 \end{bmatrix}
-$$  
+$ 
 **Hasil:** (3, 4) → (3, -4)
 
 **Contoh 2:**  
-- Titik awal $$ B = \begin{bmatrix} -1 \\ -5 \end{bmatrix} $$  
+- Titik awal $ B = \begin{bmatrix} -1 \\ -5 \end{bmatrix} $  
 - Hasil refleksi:  
-$$
+$
 B' = \begin{bmatrix} -1 \\ 5 \end{bmatrix}
-$$  
+$  
 **Hasil:** (-1, -5) → (-1, 5)
 
 **Visualisasi:**  
@@ -57,27 +57,27 @@ $$
 
 ### 2. Refleksi Terhadap Sumbu Y  
 **Rumus Transformasi:**  
-$$
+$
 \begin{bmatrix} 
 -1 & 0 \\ 
 0 & 1 
 \end{bmatrix}
-$$
+$
 
 **Contoh 1:**  
-- Titik $$ C = \begin{bmatrix} 2 \\ 3 \end{bmatrix} $$  
+- Titik $ C = \begin{bmatrix} 2 \\ 3 \end{bmatrix} $ 
 - Hasil:  
-$$
+$
 C' = \begin{bmatrix} -2 \\ 3 \end{bmatrix}
-$$  
+$  
 **Hasil:** (2, 3) → (-2, 3)
 
 **Contoh 2:**  
-- Titik $$ D = \begin{bmatrix} -4 \\ -1 \end{bmatrix} $$  
+- Titik $ D = \begin{bmatrix} -4 \\ -1 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 D' = \begin{bmatrix} 4 \\ -1 \end{bmatrix}
-$$  
+$  
 **Hasil:** (-4, -1) → (4, -1)
 
 **Visualisasi:**  
@@ -89,27 +89,27 @@ $$
 
 ### 3. Refleksi Terhadap Garis Y = X  
 **Rumus Transformasi:**  
-$$
+$
 \begin{bmatrix} 
 0 & 1 \\ 
 1 & 0 
 \end{bmatrix}
-$$
+$
 
 **Contoh 1:**  
-- Titik $$ E = \begin{bmatrix} 1 \\ 6 \end{bmatrix} $$  
+- Titik $ E = \begin{bmatrix} 1 \\ 6 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 E' = \begin{bmatrix} 6 \\ 1 \end{bmatrix}
-$$  
+$  
 **Hasil:** (1, 6) → (6, 1)
 
 **Contoh 2:**  
-- Titik $$ F = \begin{bmatrix} -2 \\ 4 \end{bmatrix} $$  
+- Titik $ F = \begin{bmatrix} -2 \\ 4 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 F' = \begin{bmatrix} 4 \\ -2 \end{bmatrix}
-$$  
+$  
 **Hasil:** (-2, 4) → (4, -2)
 
 **Visualisasi:**  
@@ -122,27 +122,27 @@ $$
 
 ### 4. Refleksi Terhadap Garis Y = -X  
 **Rumus Transformasi:**  
-$$
+$
 \begin{bmatrix} 
 0 & -1 \\ 
 -1 & 0 
 \end{bmatrix}
-$$
+$
 
 **Contoh 1:**  
-- Titik $$ G = \begin{bmatrix} 5 \\ 2 \end{bmatrix} $$  
+- Titik $ G = \begin{bmatrix} 5 \\ 2 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 G' = \begin{bmatrix} -2 \\ -5 \end{bmatrix}
-$$  
+$  
 **Hasil:** (5, 2) → (-2, -5)
 
 **Contoh 2:**  
-- Titik $$ H = \begin{bmatrix} -3 \\ 1 \end{bmatrix} $$  
+- Titik $ H = \begin{bmatrix} -3 \\ 1 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 H' = \begin{bmatrix} -1 \\ 3 \end{bmatrix}
-$$  
+$  
 **Hasil:** (-3, 1) → (-1, 3)
 
 **Visualisasi:**  
@@ -155,27 +155,27 @@ $$
 
 ### 5. Refleksi Terhadap Titik Pusat  
 **Rumus Transformasi:**  
-$$
+$
 \begin{bmatrix} 
 -1 & 0 \\ 
 0 & -1 
 \end{bmatrix}
-$$
+$
 
 **Contoh 1:**  
-- Titik $$ I = \begin{bmatrix} 4 \\ -3 \end{bmatrix} $$  
+- Titik $ I = \begin{bmatrix} 4 \\ -3 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 I' = \begin{bmatrix} -4 \\ 3 \end{bmatrix}
-$$  
+$  
 **Hasil:** (4, -3) → (-4, 3)
 
 **Contoh 2:**  
-- Titik $$ J = \begin{bmatrix} -2 \\ -5 \end{bmatrix} $$  
+- Titik $ J = \begin{bmatrix} -2 \\ -5 \end{bmatrix} $  
 - Hasil:  
-$$
+$
 J' = \begin{bmatrix} 2 \\ 5 \end{bmatrix}
-$$  
+$  
 **Hasil:** (-2, -5) → (2, 5)
 
 **Visualisasi:**  
