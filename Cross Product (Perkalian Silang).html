@@ -62,7 +62,7 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'cross product';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Cross Product (Perkalian Silang)';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Perkalian Titik (Dot Product)" href="Perkalian%20Titik%20Dot%20Product.html" />
@@ -266,7 +266,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fcross product.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FCross Product (Perkalian Silang).html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -296,7 +296,7 @@
       
       
       
-      <li><a href="_sources/cross product.md" target="_blank"
+      <li><a href="_sources/Cross Product (Perkalian Silang).md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -421,7 +421,7 @@
 <div class="math notranslate nohighlight">
 \[ \mathbf{v} = (v_1, v_2, v_3) \]</div>
 <p>Maka hasil perkalian silangnya adalah:
-$<span class="math notranslate nohighlight">\( \mathbf{u} \times \mathbf{v} = (u_2v_3 - u_3v_2, u_3v_1 - u_1v_3, u_1v_2 - u_2v_1) \)</span>$</p>
+<span class="math notranslate nohighlight">\(\mathbf{u} \times \mathbf{v} = (u_2v_3 - u_3v_2, u_3v_1 - u_1v_3, u_1v_2 - u_2v_1)\)</span></p>
 </section>
 <section id="solusi-menggunakan-determinan">
 <h2>Solusi Menggunakan Determinan<a class="headerlink" href="#solusi-menggunakan-determinan" title="Link to this heading">#</a></h2>
@@ -441,41 +441,34 @@ v_1 &amp; v_2 &amp; v_3 \\
 <li><p>Hitung determinan menggunakan ekspansi kofaktor.</p></li>
 </ol>
 <p>Contoh:
-Diberikan:
-$<span class="math notranslate nohighlight">\( \mathbf{u} = (1, 2, 3) \)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\( \mathbf{v} = (4, 5, 6) \)</span>$</p>
+<span class="math notranslate nohighlight">\(\mathbf{u} = (1, 2, 3)\)</span>
+<span class="math notranslate nohighlight">\(\mathbf{v} = (4, 5, 6)\)</span></p>
 <p>Maka:
-$<span class="math notranslate nohighlight">\(
-\mathbf{u} \times \mathbf{v} = \begin{vmatrix}
+<span class="math notranslate nohighlight">\(\mathbf{u} \times \mathbf{v} = \begin{vmatrix}
 \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
 1 &amp; 2 &amp; 3 \\
 4 &amp; 5 &amp; 6 \\
 \end{vmatrix}
-= \mathbf{i}(2 \cdot 6 - 3 \cdot 5) - \mathbf{j}(1 \cdot 6 - 3 \cdot 4) + \mathbf{k}(1 \cdot 5 - 2 \cdot 4)
-\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(
-= \mathbf{i}(12 - 15) - \mathbf{j}(6 - 12) + \mathbf{k}(5 - 8)
-\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(
-= -3\mathbf{i} + 6\mathbf{j} - 3\mathbf{k} = (-3, 6, -3)
-\)</span>$</p>
+= \mathbf{i}(2 \cdot 6 - 3 \cdot 5) - \mathbf{j}(1 \cdot 6 - 3 \cdot 4) + \mathbf{k}(1 \cdot 5 - 2 \cdot 4)\)</span>
+<span class="math notranslate nohighlight">\(= \mathbf{i}(12 - 15) - \mathbf{j}(6 - 12) + \mathbf{k}(5 - 8)\)</span>
+<span class="math notranslate nohighlight">\(= -3\mathbf{i} + 6\mathbf{j} - 3\mathbf{k} = (-3, 6, -3)\)</span></p>
 </section>
 <section id="sifat-sifat-perkalian-silang">
 <h2>Sifat-Sifat Perkalian Silang<a class="headerlink" href="#sifat-sifat-perkalian-silang" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Anti-komutatif:
-$<span class="math notranslate nohighlight">\( \mathbf{u} \times \mathbf{v} = -(\mathbf{v} \times \mathbf{u}) \)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\mathbf{u} \times \mathbf{v} = -(\mathbf{v} \times \mathbf{u})\)</span></p></li>
 <li><p>Distributif terhadap penjumlahan:
-$<span class="math notranslate nohighlight">\( \mathbf{u} \times (\mathbf{v} + \mathbf{w}) = \mathbf{u} \times \mathbf{v} + \mathbf{u} \times \mathbf{w} \)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\mathbf{u} \times (\mathbf{v} + \mathbf{w}) = \mathbf{u} \times \mathbf{v} + \mathbf{u} \times \mathbf{w}\)</span></p></li>
 <li><p>Perkalian dengan skalar:
-$<span class="math notranslate nohighlight">\( (k\mathbf{u}) \times \mathbf{v} = k(\mathbf{u} \times \mathbf{v}) \)</span>$</p></li>
+<span class="math notranslate nohighlight">\((k\mathbf{u}) \times \mathbf{v} = k(\mathbf{u} \times \mathbf{v})\)</span></p></li>
 <li><p>Hubungan dengan sudut:
-$<span class="math notranslate nohighlight">\( \|\mathbf{u} \times \mathbf{v}\| = \|\mathbf{u}\| \|\mathbf{v}\| \sin \theta \)</span><span class="math notranslate nohighlight">\(
-(di mana \)</span>\theta<span class="math notranslate nohighlight">\( adalah sudut antara \)</span>\mathbf{u}<span class="math notranslate nohighlight">\( dan \)</span>\mathbf{v}$)</p></li>
+<span class="math notranslate nohighlight">\(\|\mathbf{u} \times \mathbf{v}\| = \|\mathbf{u}\| \|\mathbf{v}\| \sin \theta\)</span>
+(di mana <span class="math notranslate nohighlight">\(\theta\)</span> adalah sudut antara <span class="math notranslate nohighlight">\(\mathbf{u}\)</span> dan <span class="math notranslate nohighlight">\(\mathbf{v}\)</span>)</p></li>
 <li><p>Vektor nol jika paralel:
-$<span class="math notranslate nohighlight">\( \mathbf{u} \times \mathbf{v} = \mathbf{0} \text{ jika } \mathbf{u} \text{ dan } \mathbf{v} \text{ sejajar} \)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\mathbf{u} \times \mathbf{v} = \mathbf{0} \text{ jika } \mathbf{u} \text{ dan } \mathbf{v} \text{ sejajar}\)</span></p></li>
 <li><p>Tegak lurus terhadap vektor asal:
-$<span class="math notranslate nohighlight">\( \mathbf{u} \times \mathbf{v} \perp \mathbf{u} \text{ dan } \mathbf{v} \)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\mathbf{u} \times \mathbf{v} \perp \mathbf{u} \text{ dan } \mathbf{v}\)</span></p></li>
 </ol>
 </section>
 <section id="aplikasi-perkalian-silang">
@@ -483,7 +476,7 @@ $<span class="math notranslate nohighlight">\( \mathbf{u} \times \mathbf{v} \per
 <ol class="arabic simple">
 <li><p>Menghitung luas jajar genjang dari dua vektor (<span class="math notranslate nohighlight">\(\|\mathbf{u} \times \mathbf{v}\|\)</span>).</p></li>
 <li><p>Menghitung volume paralelepiped menggunakan triple scalar product :
-$<span class="math notranslate nohighlight">\(V = |\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})|\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(V = |\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})|\)</span></p></li>
 </ol>
 </section>
 <section id="contoh-soal-solusi">
@@ -491,22 +484,14 @@ $<span class="math notranslate nohighlight">\(V = |\mathbf{u} \cdot (\mathbf{v} 
 <p>Soal
 Hitung <span class="math notranslate nohighlight">\(\mathbf{a} \times \mathbf{b}\)</span> jika <span class="math notranslate nohighlight">\(\mathbf{a} = (2, -1, 3)\)</span> dan <span class="math notranslate nohighlight">\(\mathbf{b} = (0, 4, -2)\)</span>.</p>
 <p>Solusi:
-$<span class="math notranslate nohighlight">\(
-\mathbf{a} \times \mathbf{b} = \begin{vmatrix}
+<span class="math notranslate nohighlight">\(\mathbf{a} \times \mathbf{b} = \begin{vmatrix}
 \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
 2 &amp; -1 &amp; 3 \\
 0 &amp; 4 &amp; -2 \\
-\end{vmatrix}
-\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(
-= \mathbf{i}((-1)(-2) - (3)(4)) - \mathbf{j}((2)(-2) - (3)(0)) + \mathbf{k}((2)(4) - (-1)(0))
-\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(
-= \mathbf{i}(2 - 12) - \mathbf{j}(-4 - 0) + \mathbf{k}(8 - 0)
-\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(
-= -10\mathbf{i} + 4\mathbf{j} + 8\mathbf{k} = (-10, 4, 8)
-\)</span>$</p>
+\end{vmatrix}\)</span>
+<span class="math notranslate nohighlight">\(= \mathbf{i}((-1)(-2) - (3)(4)) - \mathbf{j}((2)(-2) - (3)(0)) + \mathbf{k}((2)(4) - (-1)(0))\)</span>
+<span class="math notranslate nohighlight">\(= \mathbf{i}(2 - 12) - \mathbf{j}(-4 - 0) + \mathbf{k}(8 - 0)\)</span>
+<span class="math notranslate nohighlight">\(= -10\mathbf{i} + 4\mathbf{j} + 8\mathbf{k} = (-10, 4, 8)\)</span></p>
 </section>
 <section id="kesimpulan">
 <h2>Kesimpulan<a class="headerlink" href="#kesimpulan" title="Link to this heading">#</a></h2>
@@ -520,26 +505,18 @@ $<span class="math notranslate nohighlight">\(
 <p>Diberikan:
 Vektor <span class="math notranslate nohighlight">\(\mathbf{u} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</span>, <span class="math notranslate nohighlight">\(\mathbf{v} = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\)</span>.</p>
 <p>Rumus Luas:
-$<span class="math notranslate nohighlight">\(\text{Luas} = \left| \det(\mathbf{u}, \mathbf{v}) \right| = \left| u_1 v_2 - u_2 v_1 \right|\)</span>$</p>
+<span class="math notranslate nohighlight">\(\text{Luas} = \left| \det(\mathbf{u}, \mathbf{v}) \right| = \left| u_1 v_2 - u_2 v_1 \right|\)</span></p>
 <p>Perhitungan:
-$<span class="math notranslate nohighlight">\(\det(\mathbf{u}, \mathbf{v}) = (1)(1) - (2)(2) = 1 - 4 = -3\)</span>$</p>
-<div class="math notranslate nohighlight">
-\[\text{Luas} = \left| -3 \right| = \boxed{3} \text{ satuan luas}\]</div>
+<span class="math notranslate nohighlight">\(\det(\mathbf{u}, \mathbf{v}) = (1)(1) - (2)(2) = 1 - 4 = -3\)</span></p>
+<p><span class="math notranslate nohighlight">\(\text{Luas} = \left| -3 \right| = \boxed{3} \text{ satuan luas}\)</span></p>
 </section>
 <section id="id1">
 <h2>2. Luas Jajaran Genjang (2D)<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
 <p>Diberikan:
-$<span class="math notranslate nohighlight">\(
-Vektor \mathbf{u} = \begin{bmatrix} 2 \\ 0 \end{bmatrix}, \mathbf{v} = \begin{bmatrix} 0 \\ 3 \end{bmatrix}. \\
-\)</span>$</p>
+<span class="math notranslate nohighlight">\(Vektor \mathbf{u} = \begin{bmatrix} 2 \\ 0 \end{bmatrix}, \mathbf{v} = \begin{bmatrix} 0 \\ 3 \end{bmatrix}.\)</span></p>
 <p>Perhitungan:
-$<span class="math notranslate nohighlight">\(
-\det(\mathbf{u}, \mathbf{v}) = (2)(3) - (0)(0) = 6 - 0 = 6
-\)</span>$</p>
-<div class="math notranslate nohighlight">
-\[
-\text{Luas} = \left| 6 \right| = \boxed{6} \text{ satuan luas}
-\]</div>
+<span class="math notranslate nohighlight">\(\det(\mathbf{u}, \mathbf{v}) = (2)(3) - (0)(0) = 6 - 0 = 6\)</span></p>
+<p><span class="math notranslate nohighlight">\(\text{Luas} = \left| 6 \right| = \boxed{6} \text{ satuan luas}\)</span></p>
 </section>
 <section id="luas-segitiga-3d">
 <h2>3. Luas Segitiga (3D)<a class="headerlink" href="#luas-segitiga-3d" title="Link to this heading">#</a></h2>
@@ -548,33 +525,22 @@ Titik sudut <span class="math notranslate nohighlight">\(A(0,0,0)\)</span>, <spa
 <p>Langkah:</p>
 <ol class="arabic simple">
 <li><p>Buat vektor <span class="math notranslate nohighlight">\(\mathbf{AB}\)</span> dan <span class="math notranslate nohighlight">\(\mathbf{AC}\)</span>:
-$<span class="math notranslate nohighlight">\(
-\mathbf{AB} = B - A = \begin{bmatrix} 1 \\ 3 \\ -1 \end{bmatrix}, \quad \mathbf{AC} = C - A = \begin{bmatrix} 2 \\ 1 \\ 1 \end{bmatrix}
-\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\mathbf{AB} = B - A = \begin{bmatrix} 1 \\ 3 \\ -1 \end{bmatrix}, \quad \mathbf{AC} = C - A = \begin{bmatrix} 2 \\ 1 \\ 1 \end{bmatrix}\)</span></p></li>
 <li><p>Hitung cross product <span class="math notranslate nohighlight">\(\mathbf{AB} \times \mathbf{AC}\)</span>:
-$<span class="math notranslate nohighlight">\(
-\mathbf{AB} \times \mathbf{AC} = 
+<span class="math notranslate nohighlight">\(\mathbf{AB} \times \mathbf{AC} = 
 \begin{vmatrix}
 \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
 1 &amp; 3 &amp; -1 \\
 2 &amp; 1 &amp; 1 \\
 \end{vmatrix}
-= \mathbf{i}(3 \cdot 1 - (-1) \cdot 1) - \mathbf{j}(1 \cdot 1 - (-1) \cdot 2) + \mathbf{k}(1 \cdot 1 - 3 \cdot 2)
-\)</span>$</p></li>
+= \mathbf{i}(3 \cdot 1 - (-1) \cdot 1) - \mathbf{j}(1 \cdot 1 - (-1) \cdot 2) + \mathbf{k}(1 \cdot 1 - 3 \cdot 2)\)</span></p></li>
 </ol>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-= \mathbf{i}(3 + 1) - \mathbf{j}(1 + 2) + \mathbf{k}(1 - 6) = 4\mathbf{i} - 3\mathbf{j} - 5\mathbf{k} = \begin{bmatrix} 4 \\ -3 \\ -5 \end{bmatrix}
-\end{split}\]</div>
+<p><span class="math notranslate nohighlight">\(= \mathbf{i}(3 + 1) - \mathbf{j}(1 + 2) + \mathbf{k}(1 - 6) = 4\mathbf{i} - 3\mathbf{j} - 5\mathbf{k} = \begin{bmatrix} 4 \\ -3 \\ -5 \end{bmatrix}\)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Hitung norm cross product: \
-$<span class="math notranslate nohighlight">\(
-\|\mathbf{AB} \times \mathbf{AC}\| = \sqrt{4^2 + (-3)^2 + (-5)^2} = \sqrt{16 + 9 + 25} = \sqrt{50} = 5\sqrt{2}
-\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\|\mathbf{AB} \times \mathbf{AC}\| = \sqrt{4^2 + (-3)^2 + (-5)^2} = \sqrt{16 + 9 + 25} = \sqrt{50} = 5\sqrt{2}\)</span></p></li>
 <li><p>Luas segitiga = <span class="math notranslate nohighlight">\(\frac{1}{2} \times \|\mathbf{AB} \times \mathbf{AC}\|\)</span>:
-$<span class="math notranslate nohighlight">\(
-\text{Luas} = \frac{1}{2} \times 5\sqrt{2} = \boxed{\frac{5\sqrt{2}}{2}} \text{ satuan luas}
-\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\text{Luas} = \frac{1}{2} \times 5\sqrt{2} = \boxed{\frac{5\sqrt{2}}{2}} \text{ satuan luas}\)</span></p></li>
 </ol>
 </section>
 <section id="id2">
@@ -584,33 +550,22 @@ Titik sudut <span class="math notranslate nohighlight">\(P(5, 2, -1)\)</span>, <
 <p>Langkah:</p>
 <ol class="arabic simple">
 <li><p>Buat vektor <span class="math notranslate nohighlight">\(\mathbf{PQ}\)</span> dan <span class="math notranslate nohighlight">\(\mathbf{PR}\)</span>:
-$<span class="math notranslate nohighlight">\(
-\mathbf{PQ} = Q - P = \begin{bmatrix} -2 \\ 4 \\ 3 \end{bmatrix}, \quad \mathbf{PR} = R - P = \begin{bmatrix} -4 \\ -2 \\ 5 \end{bmatrix}
-\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\mathbf{PQ} = Q - P = \begin{bmatrix} -2 \\ 4 \\ 3 \end{bmatrix}, \quad \mathbf{PR} = R - P = \begin{bmatrix} -4 \\ -2 \\ 5 \end{bmatrix}\)</span></p></li>
 <li><p>Hitung cross product <span class="math notranslate nohighlight">\(\mathbf{PQ} \times \mathbf{PR}\)</span>:
-$<span class="math notranslate nohighlight">\(
-\mathbf{PQ} \times \mathbf{PR} = 
+<span class="math notranslate nohighlight">\(\mathbf{PQ} \times \mathbf{PR} = 
 \begin{vmatrix}
 \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
 -2 &amp; 4 &amp; 3 \\
 -4 &amp; -2 &amp; 5 \\
 \end{vmatrix}
-= \mathbf{i}(4 \cdot 5 - 3 \cdot (-2)) - \mathbf{j}(-2 \cdot 5 - 3 \cdot (-4)) + \mathbf{k}(-2 \cdot (-2) - 4 \cdot (-4))
-\)</span>$</p></li>
+= \mathbf{i}(4 \cdot 5 - 3 \cdot (-2)) - \mathbf{j}(-2 \cdot 5 - 3 \cdot (-4)) + \mathbf{k}(-2 \cdot (-2) - 4 \cdot (-4))\)</span></p></li>
 </ol>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-= \mathbf{i}(20 + 6) - \mathbf{j}(-10 + 12) + \mathbf{k}(4 + 16) = 26\mathbf{i} - 2\mathbf{j} + 20\mathbf{k} = \begin{bmatrix} 26 \\ -2 \\ 20 \end{bmatrix}
-\end{split}\]</div>
+<p><span class="math notranslate nohighlight">\(= \mathbf{i}(20 + 6) - \mathbf{j}(-10 + 12) + \mathbf{k}(4 + 16) = 26\mathbf{i} - 2\mathbf{j} + 20\mathbf{k} = \begin{bmatrix} 26 \\ -2 \\ 20 \end{bmatrix}\)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Hitung norm cross product:
-$<span class="math notranslate nohighlight">\(
-\|\mathbf{PQ} \times \mathbf{PR}\| = \sqrt{26^2 + (-2)^2 + 20^2} = \sqrt{676 + 4 + 400} = \sqrt{1080} = 6\sqrt{30}
-\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\|\mathbf{PQ} \times \mathbf{PR}\| = \sqrt{26^2 + (-2)^2 + 20^2} = \sqrt{676 + 4 + 400} = \sqrt{1080} = 6\sqrt{30}\)</span></p></li>
 <li><p>Luas segitiga = <span class="math notranslate nohighlight">\(\frac{1}{2} \times \|\mathbf{PQ} \times \mathbf{PR}\|\)</span>:
-$<span class="math notranslate nohighlight">\(
-\text{Luas} = \frac{1}{2} \times 6\sqrt{30} = \boxed{3\sqrt{30}} \text{ satuan luas}
-\)</span>$</p></li>
+<span class="math notranslate nohighlight">\(\text{Luas} = \frac{1}{2} \times 6\sqrt{30} = \boxed{3\sqrt{30}} \text{ satuan luas}\)</span></p></li>
 </ol>
 </section>
 </section>
